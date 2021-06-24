@@ -1,0 +1,41 @@
+.section {
+    display: flex;
+    justify-content: center;
+
+    margin: 50px 0px;
+
+    &__aside {
+        margin-right: 50px;
+        width: 20%;
+    }
+
+    &__title {
+        color: #FFAE00;
+        @include fontsTitle();
+        font-weight: bold;
+        line-height: 71.5%;
+    }
+
+    &__subtitle {
+        margin: 15px 0px 30px 0px;
+        @include fontsTitle();
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 128.5%;
+    }
+
+    &__text {
+        @include fontsText();
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+    }
+
+    &__image {
+        border-radius: 50px;
+    }
+}
+
