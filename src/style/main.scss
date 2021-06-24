@@ -1,0 +1,12 @@
+@import './config/_reset';
+@import './config/_varibles';
+@import './config/_mixins';
+@import './config/_baseLayout';
+
+//Component
+@import './components/_footer';
+@import './components/_header';
+@import './components/_main';
+@import './components/_nav';
+@import './components/about_me';
+@import './components/prise';
