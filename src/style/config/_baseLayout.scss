@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+body {
+    background: #f69a73;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column; 
+    margin: 0 auto; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#map {
+    width: 95vw;
+    height: 90vh;
+}

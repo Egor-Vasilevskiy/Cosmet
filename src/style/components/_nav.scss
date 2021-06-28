@@ -1,0 +1,31 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px;
+
+
+    &__list {
+        
+        &--item {
+            margin-right: 20px;
+
+            @include fontsTitle();
+            font-size: 18px;
+            list-style: 23px;
+        }
+    }
+
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+        outline: none;
+    }
+}
+
+.logo {
+    @include fontsTitle();
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+}

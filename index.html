@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style/main.css">
+    <link rel="icon" href="./src/image/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
+    <title>ValeriCosmet</title>
+
+    <script type="text/javascript" src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&apikey=542af30c-525c-439f-ba9b-60e318cf91ac"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header id="top" class="header">
+            <div class="nav">
+                <div class="logo">Valericosmet</div>
+                <nav class="nav__list">
+                    <a href="#about" class="nav__list--item">Обо мне</a>
+                    <a href="#price" class="nav__list--item">Прайс</a>
+                    <a href="#portfolio" class="nav__list--item">Мои работы</a>
+                    <a href="#" class="nav__list--item">Запись</a>
+                </nav>
+            </div>
+
+            <div class="promo">
+                <h3 class="title">Косметолог Эстетист</h3>
+                <h1 class="name">Valericosmet</h1>
+                <span>Валерия Агаркова</span>
+            </div> 
+
+            <section id="about" class="section">
+              <div class="section__aside">
+                  <h3 class="section__title">Немного обо мне</h3>
+                  <p class="section__subtitle">Я косметолог-эстетист со стажем 2+ лет, работаю в Минске</p>
+                  <p class="section__text">Провожу чистки, пилинги, депиляции, всё по доступному прайсу, постоянно учусь и развиваюсь, всё стерильно, гигиенично,с позитивом</p>
+              </div>
+              <img class="section__image" src="./src/image/avatar.jpg" width="248" height="300" alt="it me">
+          </section>
+        </header>    
+
+        <main class="main">
+            <div id="price" class="container">
+                <div class="sidebar">
+                  <div style="background: linear-gradient(229.99deg, #83a866 -26%, #3c5921 145%);">
+                    <h1>Косметология</h1>
+                    <p>Сделаем ваше личико ещё более прекрасным</p>
+                  </div>
+                  <div style="background: linear-gradient(215.32deg, #dec1a3 -1%, #9E0706 124%);">
+                    <h1>Массажи</h1>
+                    <p>Жамкай меня полностью</p>
+                  </div>
+                  <div style="background: linear-gradient(221.87deg, #726a78 1%, #5305AF 128%);">
+                    <h1>Депиляции</h1>
+                    <p>Сделаем ваши ножки гладкими</p>
+                  </div>
+                </div>
+                <div class="main-slide">  
+                  <div class="item"  style="
+                  background-image: url('https://image.freepik.com/free-photo/beautiful-long-female-legs-with-flower-beauty-treatment-concept_186202-3360.jpg')">
+                    <table >
+                      <tr>
+                         <th>Услуга</th>
+                         <th>Цена</th>
+                      </tr>
+                      <tr>
+                         <td>Депиляция верхней губы</td>
+                         <td>5 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция подмышечных впадин</td>
+                        <td>5 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция рук до локтя</td>
+                        <td>10 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция рук</td>
+                        <td>15 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция живота</td>
+                        <td>10 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция зоны бикини</td>
+                        <td>13 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция зоны среднего бикини</td>
+                        <td>15 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция зоны глубокого бикини</td>
+                        <td>17 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция ягодиц</td>
+                        <td>10 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция бёдер</td>
+                        <td>15 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция голеней</td>
+                        <td>15 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция ног</td>
+                        <td>20 BYN</td>
+                      </tr>
+                     </table>
+                  </div>
+                  <div class="item"   style="
+                  background-image: url('https://image.freepik.com/free-photo/female-masseur-doing-massage-woman-s-back-spa_176420-17060.jpg')
+                ">
+                    <table >
+                      <tr>
+                         <th>Услуга</th>
+                         <th>Цена</th>
+                      </tr>
+                      <tr>
+                         <td>Депиляция верхней губы</td>
+                         <td>5 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция подмышечных впадин</td>
+                        <td>5 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция рук до локтя</td>
+                        <td>10 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция рук</td>
+                        <td>15 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция живота</td>
+                        <td>10 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция зоны бикини</td>
+                        <td>13 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция зоны среднего бикини</td>
+                        <td>15 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция зоны глубокого бикини</td>
+                        <td>17 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция ягодиц</td>
+                        <td>10 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция бёдер</td>
+                        <td>15 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция голеней</td>
+                        <td>15 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция ног</td>
+                        <td>20 BYN</td>
+                      </tr>
+                     </table>
+                  </div>
+                  <div class="item" style="
+                  background-image: url('https://image.freepik.com/free-photo/thoughtful-female-model-looks-happily-keeps-finger-lips-applies-beauty-facial-mask-isolated-green-wall-has-cheerful-pensive-expression_273609-47856.jpg')
+                ">
+                    <table >
+                      <tr>
+                         <th>Услуга</th>
+                         <th>Цена</th>
+                      </tr>
+                      <tr>
+                         <td>Депиляция верхней губы</td>
+                         <td>5 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция подмышечных впадин</td>
+                        <td>5 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция рук до локтя</td>
+                        <td>10 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция рук</td>
+                        <td>15 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция живота</td>
+                        <td>10 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция зоны бикини</td>
+                        <td>13 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция зоны среднего бикини</td>
+                        <td>15 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция зоны глубокого бикини</td>
+                        <td>17 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция ягодиц</td>
+                        <td>10 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция бёдер</td>
+                        <td>15 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция голеней</td>
+                        <td>15 BYN</td>
+                      </tr>
+                      <tr>
+                        <td>Депиляция ног</td>
+                        <td>20 BYN</td>
+                      </tr>
+                     </table>
+                  </div>
+                </div>
+                <div class="controls">
+                  <button class="down-button">
+                    <i class="fas fa-arrow-down"></i>
+                  </button>
+                  <button class="up-button">
+                    <i class="fas fa-arrow-up"></i>
+                  </button>
+                </div>
+              </div>
+
+            <div id="portfolio" class="portfolio">
+                <div
+                    class="slide active"
+                    style="
+                        background-image: url('https://image.freepik.com/free-photo/view-from-rejuvenation-beautiful-woman-enjoying-cosmetology-procedures-beauty-salon-dermatology-hands-blue-glows-healthcare-therapy-botox_197531-2783.jpg');
+                      "
+                >
+                  <h3>Чистки лица</h3>
+                </div>
+                <div
+                    class="slide"
+                    style="
+                        background-image: url('https://image.freepik.com/free-photo/beautiful-young-girl-beauty-salon_1157-21119.jpg');
+                      "
+                >
+                  <h3>Депиляции</h3>
+                </div>
+                <div
+                    class="slide"
+                    style="
+                        background-image: url('https://image.freepik.com/free-photo/female-model-having-massage-spa_144627-45562.jpg');
+                      "
+                >
+                  <h3>Массажи тела</h3>
+                </div>
+              </div>
+        </main>
+
+        <div class="record">
+          <h1>Как записаться</h1>
+            <div class="card1">
+              <div class="card">
+                <img src="./src/image/заявка белый.png" alt="Avatar">
+                <div class="item_card">
+                  <p>Выбрать мессенджер для связи</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./src/image/звонок белый.png" alt="Avatar">
+                
+                <div class="item_card">
+                  <p>Оставить заявку на подходящее время</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="card2">
+              <div class="card">
+                <img src="./src/image/free-icon-calendar-4913246.png" alt="Avatar">
+                <div class="item_card">
+                  <p>Согласовать визит</p>
+                </div>
+              </div>
+              <div class="card">
+                <img src="./src/image/free-icon-heart-4917063.png" alt="Avatar">
+                <div class="item_card">
+                  <p>Явиться вовремя на визит</p>
+                </div>
+              </div>
+            </div>
+
+            <form class="decor">
+              <div class="form-left-decoration"></div>
+              <div class="form-right-decoration"></div>
+              <div class="circle"></div>
+              <div class="form-inner">
+              <h3>Записать на услугу</h3>
+                <input type="text" placeholder="Имя">
+                <input type="datetime-local" placeholder="">
+                <div class="select">
+                  <select name="list1">
+                    <option>Выберите из списка</option>
+                    <option>Option</option>
+                    <option>Textarea</option>
+                    <option>Label</option>
+                    <option>Fieldset</option>
+                    <option>Legend</option>
+                  </select>  
+                </div>                               
+                <textarea placeholder="Сообщение..." rows="3"></textarea>
+                <input type="submit" value="Отправить">
+              </div>
+            </form>
+            <div id="map"></div>
+        </div>
+        <footer class="footer">
+
+        </footer>
+    </div>
+
+    <script src="./src/js/app.js"></script>
+    <script src="./src/js/map.js"></script>
+</body>
+</html>
